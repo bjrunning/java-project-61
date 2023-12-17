@@ -4,7 +4,7 @@ import hexlet.code.Engine;
 import hexlet.code.Utils;
 
 public class Progression {
-    public static final String PROGRESSION_RULE = "Какое число пропущено в прогрессии?";
+    public static final String PROGRESSION_RULE = "What number is missing in the progression?";
     private static final int PROGRESSION_MIN_SIZE = 5;
     private static final int PROGRESSION_MAX_SIZE = 10;
     private static final String EMPTY_PLACE_ELEMENT = "..";

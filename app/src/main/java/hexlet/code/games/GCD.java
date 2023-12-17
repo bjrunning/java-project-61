@@ -4,7 +4,7 @@ import hexlet.code.Engine;
 import hexlet.code.Utils;
 
 public class GCD {
-    private static final String GCD_RULE = "Найдите наибольший общий делитель данных чисел.";
+    private static final String GCD_RULE = "Find the greatest common divisor of the given numbers.";
     private static final int LOWER_BORDER = 1;
     private static final int UPPER_BORDER = 100;
 

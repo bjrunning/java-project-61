@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Cli {
     public static void meetPlayer() {
-        System.out.println("\nДобро пожаловать в интеллектуальные игры!");
-        System.out.print("Как вас зовут? ");
+        System.out.println("\nWelcome to Brain Games!");
+        System.out.print("May I have your name? ");
 
         Scanner playerNameScanner = new Scanner(System.in);
         String playerName = playerNameScanner.next();
-        System.out.println("Привет, " + playerName + "!");
+        System.out.println("Hello, " + playerName + "!");
     }
 }

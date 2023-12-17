@@ -4,8 +4,8 @@ import hexlet.code.Engine;
 import hexlet.code.Utils;
 
 public class Calculator {
-    private static final String CALCULATOR_RULES = "Каков результат выражения?";
-    private static final String WRONG_OPERATOR = "Ошибка оператора";
+    private static final String CALCULATOR_RULES = "What is the result of the expression?";
+    private static final String WRONG_OPERATOR = "Operator error";
     private static final int LOWER_BORDER = 2;
     private static final int UPPER_BORDER = 50;
     private static final int MATH_OPERATOR_ELECTOR_LOWER_BORDER = 0;

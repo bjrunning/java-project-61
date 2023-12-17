@@ -4,8 +4,8 @@ import hexlet.code.Engine;
 import hexlet.code.Utils;
 
 public class Prime {
-    public static final String PRIME_RULE = "Ответьте «да», если данное число простое. "
-            + "В противном случае ответьте «нет».";
+    public static final String PRIME_RULE = "Answer 'yes' if the number is prime. "
+            + "Otherwise, answer 'no'.";
     private static final int UPPER_BORDER = 3600;
     public static final int LOWER_BORDER = 1;
 
@@ -23,7 +23,7 @@ public class Prime {
 
         questionAndAnswer[0] = String.valueOf(Utils.
                 generateRandomNumber(LOWER_BORDER, UPPER_BORDER));
-        questionAndAnswer[1] = isPrimeNumber(Integer.parseInt(questionAndAnswer[0])) ? "да" : "нет";
+        questionAndAnswer[1] = isPrimeNumber(Integer.parseInt(questionAndAnswer[0])) ? "yes" : "no";
         return questionAndAnswer;
     }
 

@@ -9,26 +9,26 @@ public class Engine {
         String playerName;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("\nДобро пожаловать в интеллектуальные игры!\nКак вас зовут? ");
+        System.out.print("\nWelcome to the Brain Games!\nMay I have your name? ");
         playerName = scanner.next();
-        System.out.println("Привет, " + playerName + "!");
+        System.out.println("Hello, " + playerName + "!");
         System.out.println(gameRule);
 
         for (int i = 0; i < ROUND_COUNT; i++) {
-            System.out.println("Вопрос: " + questionsAndAnswers[i][0]);
-            System.out.print("Ваш ответ: ");
+            System.out.println("Question: " + questionsAndAnswers[i][0]);
+            System.out.print("Your answer: ");
             String playerAnswer = scanner.next();
 
             if (playerAnswer.equals(questionsAndAnswers[i][1])) {
-                System.out.println("Правильно!");
+                System.out.println("Correct!");
             } else {
                 System.out.println("'" + playerAnswer + "'"
-                        + " неправильный ответ.\nПравильный ответ был:"
+                        + " is wrong answer ;(. Correct answer was"
                         + " '" + questionsAndAnswers[i][1] + "'.");
-                System.out.println("Давайте попробуем еще раз, " + playerName + "!");
+                System.out.println("Let's try again, " + playerName + "!");
                 return;
             }
         }
-        System.out.println("Поздравляю, " + playerName + "!");
+        System.out.println("Congratulations, " + playerName + "!");
     }
 }

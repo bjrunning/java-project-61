@@ -10,16 +10,16 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Пожалуйста, введите номер игры и нажмите Enter.");
-        System.out.println("1 - Приветствие");
-        System.out.println("2 - Чётное или нечётное");
-        System.out.println("3 - Калькулятор");
-        System.out.println("4 - Наибольший общий делитель");
-        System.out.println("5 - Арифметическая рогрессия");
-        System.out.println("6 - Простое ли число?");
-        System.out.println("0 - Выход");
+        System.out.println("Please enter the game number and press Enter.");
+        System.out.println("1 - Greet");
+        System.out.println("2 - Even");
+        System.out.println("3 - Calculator");
+        System.out.println("4 - GCD");
+        System.out.println("5 - Progression");
+        System.out.println("6 - Prime");
+        System.out.println("0 - Exit");
         Scanner playerChoice = new Scanner(System.in);
-        System.out.print("Ваш выбор: ");
+        System.out.print("Your choice: ");
         String playerInteractionType = playerChoice.next();
         startSelectedGame(playerInteractionType);
         playerChoice.close();
@@ -46,10 +46,10 @@ public class App {
                 Prime.startPrime();
                 break;
             case "0":
-                System.out.println("До свидания!");
+                System.out.println("Good bye!");
                 break;
             default:
-                System.out.println("Пожалуйста, выберите 1, 2, 3, 4, 5, 6 или 0.");
+                System.out.println("Please select 1, 2, 3, 4, 5, 6 or 0.");
         }
     }
 }
