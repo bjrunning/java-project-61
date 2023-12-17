@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/bjrunning/java-project-61/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/bjrunning/java-project-61/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a117f1859fb1dd982ea3/maintainability)](https://codeclimate.com/github/bjrunning/java-project-61/maintainability)
 
 ### Description:
 "Mind Games" - is a set of five console games, built on the principle of popular mobile applications for brain pumping.
