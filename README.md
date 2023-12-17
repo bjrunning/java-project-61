@@ -23,22 +23,17 @@ considered to be completed. Incorrect answers end the game and prompt you to do 
     cd java-project-61/app
     make run-dist
 
-In the video, the game has been translated into Russian for clarity. When cloning, building the application, and then launching it, the game will be in English!
-
-#### "Greet"
-[![asciicast](https://asciinema.org/a/627281.svg)](https://asciinema.org/a/627281)
-
 #### "Even"
-[![asciicast](https://asciinema.org/a/627282.svg)](https://asciinema.org/a/627282)
+[![asciicast](https://asciinema.org/a/627348.svg)](https://asciinema.org/a/627348)
 
 #### "Calculator"
-[![asciicast](https://asciinema.org/a/627283.svg)](https://asciinema.org/a/627283)
+[![asciicast](https://asciinema.org/a/627353.svg)](https://asciinema.org/a/627353)
 
 #### "GCD" (Greatest Common Divisor)
-[![asciicast](https://asciinema.org/a/627284.svg)](https://asciinema.org/a/627284)
+[![asciicast](https://asciinema.org/a/627355.svg)](https://asciinema.org/a/627355)
 
 #### "Progression"
-[![asciicast](https://asciinema.org/a/627285.svg)](https://asciinema.org/a/627285)
+[![asciicast](https://asciinema.org/a/627351.svg)](https://asciinema.org/a/627351)
 
 #### "Prime"
-[![asciicast](https://asciinema.org/a/627286.svg)](https://asciinema.org/a/627286)
+[![asciicast](https://asciinema.org/a/627352.svg)](https://asciinema.org/a/627352)
