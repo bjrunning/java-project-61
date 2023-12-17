@@ -4,8 +4,7 @@ import hexlet.code.Engine;
 import hexlet.code.Utils;
 
 public class Prime {
-    public static final String PRIME_RULE = "Answer 'yes' if the number is prime. "
-            + "Otherwise, answer 'no'.";
+    public static final String PRIME_RULE = "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
     private static final int UPPER_BORDER = 3600;
     public static final int LOWER_BORDER = 1;
 
