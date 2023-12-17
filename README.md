@@ -14,9 +14,16 @@ considered to be completed. Incorrect answers end the game and prompt you to do 
 * Progression - finding missing numbers in a sequence of numbers.
 * Prime - determining a prime number.
 
+### How to install:
+    git clone git@github.com:bjrunning/java-project-61.git
+    cd java-project-61
+    make -C app build
+
 ### Run:
     cd java-project-61/app
     make run-dist
+
+In the video, the game has been translated into Russian for clarity. When cloning, building the application, and then launching it, the game will be in English!
 
 #### "Greet"
 [![asciicast](https://asciinema.org/a/627281.svg)](https://asciinema.org/a/627281)
